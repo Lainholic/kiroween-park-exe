@@ -1,0 +1,11 @@
+{
+  "name": "kiroween-park-exe",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/verify_park.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

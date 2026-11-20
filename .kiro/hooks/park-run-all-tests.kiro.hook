@@ -1,0 +1,12 @@
+{
+  "name": "Run PARK.EXE Tests",
+  "version": "1.0.0",
+  "description": "Run the standalone PARK.EXE verifier.",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Run `npm test` once from the project root. Report the PARK.EXE PASS and FAIL counts, and name any failed checks."
+  }
+}
